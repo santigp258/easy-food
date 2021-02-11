@@ -1,4 +1,7 @@
-<?php  include_once('./layouts/navbar.php') ?>
+<?php  include_once('./layouts/navbar.php');
+
+echo var_dump($_SESSION);
+?>
 
     <!-- Main content -->
     <div class="content">

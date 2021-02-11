@@ -70,4 +70,15 @@ class Auth
           echo '{"error":{"text":' . $e->getMessage() . '}}';
       }
   }
+
+  public function Validation(){
+      if(!$_SESSION['uid']){
+        header('Location' . BASE_URL);
+      }
+  }
+
+  public function Logout(){
+     $_SESSION['uid'] = null;
+     session_destroy();
+  }
 }
