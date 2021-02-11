@@ -28,5 +28,5 @@
             aliquam blanditiis dolorem. Odio.</p>
     </div>
 </div>
-
+<script src="<?php echo BASE_URL ?>/admin/views/plugins/toastr/validateLogin.js"></script>
 <?php include_once('./layout/footer.php') ?>

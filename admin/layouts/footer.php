@@ -24,7 +24,7 @@
 <!-- REQUIRED SCRIPTS -->
 
 <!-- jQuery -->
-<script src="<?php echo BASE_URL ?>/admin/views/plugins/jquery/jquery.min.js"></script>
+<script src="<?php echo BASE_URL ?>/admin/views/plugins/bootstrap/jquery.js"></script>
 <!-- Bootstrap 4 -->
 <script src="<?php echo BASE_URL ?>/admin/views/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->

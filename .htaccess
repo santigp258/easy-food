@@ -1,4 +1,4 @@
-ErrorDocument 404 http://localhost/easy-food/404.php
+ErrorDocument 404 http://localhost/easy-food/404.html
 
 Options All -Indexes
 

@@ -28,7 +28,7 @@ include_once('../enviroments.php');
     <!-- TOASTR -->
     <link rel="stylesheet" href="<?php echo BASE_URL ?>/admin/views/plugins/toastr/toastr.min.css">
     <!-- JQUERY -->
-    <script src="<?php echo BASE_URL ?>/admin/views/plugins/jquery/jquery.min.js"></script>
+    <script src="<?php echo BASE_URL ?>/admin/views/plugins/bootstrap/jquery.js"></script>
     <meta name="theme-color" content="#fafafa">
 </head>
 
