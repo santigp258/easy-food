@@ -4,7 +4,7 @@
     <div class="ctn-form">
         <img src="<?php echo BASE_URL ?>img/logo.png" alt="logo" class="logo">
         <h1 class="title">Registro</h1>
-        <form action="<?php echo BASE_URL ?>/App/controllers/authentication/AuthController.php" method="POST" name="signup">
+        <form action="<?php echo BASE_URL ?>/App/controllers/authentication/RegisterController.php" method="POST" name="signup">
             <!-- User -->
             <label for="usernameReg">Usuario</label>
             <input type="text" name="usernameReg" id="usernameReg" autocomplete="off" autofocus>
@@ -18,7 +18,7 @@
             <input type="submit" name="signupSubmit" value="Registrar" id="signupSubmit">
         </form>
         <!-- Text Footer -->
-        <span class="text-footer">¿Ya te has registrado?<a href="<?php echo BASE_URL ?>index.php">
+        <span class="text-footer">¿Ya te has registrado?<a href="index.php">
                 Iniciar Sesión</a></span>
     </div>
     <!-- Lado Derecho -->

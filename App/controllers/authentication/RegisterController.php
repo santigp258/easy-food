@@ -1,5 +1,6 @@
 <?php
-include_once('../../models/AuthModel.php');
+require_once('../../models/AuthModel.php');
+require_once('../../../connection/conn.php');
 $userClass = new Auth();
 /* Signup Form */
 if (!empty($_POST['signupSubmit'])) {

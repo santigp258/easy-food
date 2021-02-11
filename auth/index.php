@@ -5,7 +5,7 @@
         <img src="<?php echo BASE_URL ?>img/logo.png" alt="logo" class="logo">
         <h1 class="title">Iniciar Sesión</h1>
 
-        <form action="<?php echo BASE_URL ?>login/sendData.php" method="POST" name="login">
+        <form action="<?php echo BASE_URL ?>/App/controllers/authentication/LoginController.php" method="POST" name="login">
             <!-- Email -->
             <label for="usernameEmail">Email o Usuario</label>
             <input type="text" name="usernameEmail" id="usernameEmail" autofocus>
