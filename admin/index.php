@@ -1,6 +1,6 @@
 <?php  include_once('./layouts/navbar.php');
 
-echo var_dump($_SESSION);
+
 ?>
 
     <!-- Main content -->
