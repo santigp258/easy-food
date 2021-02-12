@@ -12,7 +12,7 @@ if (!empty($_POST['loginSubmit'])) {
     if (strlen(trim($usernameEmail)) > 1 && strlen(trim($password)) > 1) {
         $uid = $userClass->userLogin($usernameEmail, $password);
         if ($uid) {
-            echo "done";
+           header('Location: http://localhost/easy-food/admin/');
         } else {
             echo "error";
         }

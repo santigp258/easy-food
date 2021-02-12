@@ -1,6 +1,6 @@
 <?php  include_once('./layouts/navbar.php');
 
-
+echo $_SESSION['uid'];
 ?>
 
     <!-- Main content -->
