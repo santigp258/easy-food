@@ -1,0 +1,15 @@
+.menu{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.caja{
+    width: 300px;
+    height: 300px;
+    border: 4px solid black;
+    border-radius: 39px;
+    margin: 60px;
+    float: left;
+    box-shadow: 14px 15px 20px -2px;
+}

@@ -1,4 +1,12 @@
 <?php include_once('./includes/header.php');  ?> 
+
+<!--Slider pizza-->
+  <ul class="bxslider">
+    <li><img src="img/promo1.svg" /></li>
+    <li><img src="img/promo2.svg" /></li>
+    <li><img src="img/promo3.svg" /></li>
+  </ul>
+
   <!-- Nosotros -->
   <div class="NosotrosPart">
     <h1 id="NosotrosPart">Nosotros</h1>
@@ -31,6 +39,13 @@
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6679393972568!2d-73.97952668459395!3d40.74733167932805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259068214096b%3A0x5b182b7357ff1c20!2sLibretto&#39;s%20Pizza!5e0!3m2!1ses-419!2spe!4v1613102977862!5m2!1ses-419!2spe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mapa"></iframe>
   </div>
+  <!--Slider Imagens-->
+  <script>
+  $(document).ready(function(){
+  $('.bxslider').bxSlider();
+    speed: 500
+  });
+  </script>
 
-  <?php include_once('./includes/footer.php');  ?> 
+  <?php include_once('./includes/footer.php');  ?>
 

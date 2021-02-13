@@ -37,6 +37,7 @@
   
       </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
 </body>
 
 </html>
