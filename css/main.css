@@ -339,6 +339,7 @@ textarea {
   text-align: center;
   color: #d03737;
   margin-top: -5%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .pizza h3 {
@@ -346,6 +347,7 @@ textarea {
   text-align: center;
   color: #E5C552;
   margin-top: -15%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Ubicanos  */
@@ -427,22 +429,22 @@ h4 {
 }
 
 .footerSection3 {
-  width: 359px !important;
-  padding-right: 6.67% !important;
-  margin-top: -5%;
+  width: 250px !important;
+  margin-top: -5% !important;
+  margin-left: 0px !important;
 }
 
 .footerSection1 {
-  width: 325px !important;
-  padding-left: 8.49% !important;
+  width: 290px !important;
   margin-top: -5%;
+  margin-left: 5%;
 }
 
 .footerSection2 {
   width: 245px !important;
+  margin-top: -5%;
   padding-left: 10% !important;
   padding-right: 10% !important;
-  margin-top: -5%;
 }
 
 .footerSection1 ul li p{
