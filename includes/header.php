@@ -1,6 +1,7 @@
 <?php include_once('./enviroments.php') ?>
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Easy Food</title>
@@ -12,12 +13,41 @@
 
   <link rel="stylesheet" href="<?php echo BASE_URL ?>/css/normalize.css">
   <link rel="stylesheet" href="<?php echo BASE_URL ?>/css/main.css">
-  <link rel="stylesheet" href="<?php echo BASE_URL ?>/css/slider.css">>
+  <link rel="stylesheet" href="<?php echo BASE_URL ?>/css/slider.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="<?php echo BASE_URL ?>/css/menu.css">>
+
+  <?php
+  $archivo = basename($_SERVER['PHP_SELF']); //retorna el nombre del archivo actual
+  $pagina = str_replace(".php", "", $archivo);  //primero lo que quieres buscar, por qué reemplazar, y fuente de datos
+  if ($pagina == 'index') {
+    echo ' <link rel="stylesheet" href="' . BASE_URL . '/css/slider.css">';
+  }
+
+  ?>
+  <style>
+    .bxslider {
+      margin-top: 100px;
+    }
+
+    .bxslider li {
+      max-height: 600px;
+      margin: 0 auto;
+    }
+
+    .bxslider li img {
+      width: 100%;
+      max-height: 600px;
+      margin: 0 auto;
+    }
+
+    nav {
+      z-index: 999;
+    }
+  </style>
+  <script src="<?php echo BASE_URL ?>/admin/views/plugins/bootstrap/jquery.js"></script>
 </head>
 
 <body>

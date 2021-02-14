@@ -1,12 +1,11 @@
 <?php include_once('./includes/header.php');  ?> 
 
 <!--Slider pizza-->
-  <ul class="bxslider">
+ <ul class="bxslider">
     <li><img src="img/promo1.svg" /></li>
     <li><img src="img/promo2.svg" /></li>
     <li><img src="img/promo3.svg" /></li>
   </ul>
-
   <!-- Nosotros -->
   <div class="NosotrosPart">
     <h1 id="NosotrosPart">Nosotros</h1>
@@ -41,10 +40,12 @@
   </div>
   <!--Slider Imagens-->
   <script>
-  $(document).ready(function(){
-  $('.bxslider').bxSlider();
-    speed: 500
+$(function(){
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
   });
+});
   </script>
 
   <?php include_once('./includes/footer.php');  ?>
