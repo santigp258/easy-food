@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="<?php echo BASE_URL ?>/css/normalize.css">
   <link rel="stylesheet" href="<?php echo BASE_URL ?>/css/main.css">
   <link rel="stylesheet" href="<?php echo BASE_URL ?>/css/slider.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL ?>/css/menu.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
